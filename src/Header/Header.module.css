@@ -1,3 +1,101 @@
-.headerContainer{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.headerContainer {
+    background: hsl(220, 23%, 10%);
+    color: white;
+    height: 90px;
+    padding: 0 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
 }
+
+/*LEFT*/
+.leftSection {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.leftSection h1 {
+    color: hsl(27, 100%, 50%);
+    font-size: 1.8rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+/*NAV*/
+.navButtons ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.navButtons a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 18px;
+    border-radius: 999px;
+    transition: 
+        background-color .35s ease,
+        color .35s ease,
+        box-shadow .35s ease;
+    display: inline-block;
+}
+
+.navButtons a:hover {
+   background: rgba(255, 123, 0, 0.12);
+   color: hsl(27, 100%, 50%);
+   box-shadow: 0 0 10px hsla(29, 100%, 50%, 0.25);
+}
+.active{
+    background: rgba(255, 123, 0, 0.12);
+    color:hsl(27, 100%, 50%) !important;
+    box-shadow: 0 0 20px hsla(22, 100%, 50%, 0.26);
+}
+
+
+.active::before{
+    content:"<";
+    margin-right:4px;
+}
+
+
+.active::after{
+    content:">";
+    margin-left:4px;
+}
+
+/*RIGHT*/
+
+.profileButtons ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.profileButtons a{
+    display:flex;
+    gap:8px;
+    align-items:center;
+    text-decoration:none;
+    color:white;
+    transition:.3s;
+}
+
+.profileButtons a:hover{
+    color:hsl(27, 100%, 50%);
+}
+
+.icon{
+    font-size:1.1rem;
+}
+
+.menuBtn{
+    display: none;
+    background:none;
+    border:none;
+    color:white;
+    font-size:1.7rem;
+    cursor:pointer;
+}
+
