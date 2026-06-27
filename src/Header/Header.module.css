@@ -102,7 +102,7 @@
 }
 
 .navButtons ul li a:hover::after {
-    width: 102000%;
+    width: 100%;
 }
 
 .navButtons ul li a.active {
