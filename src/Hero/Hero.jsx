@@ -34,7 +34,7 @@ function Hero() {
     };
   });
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} id="home">
       <div className={styles.content}>
         <span className={styles.greeting}>Hello, I'm</span>
 
