@@ -67,7 +67,7 @@ function Hero() {
       <div className={styles.imageWrapper}>
         <div className={styles.imageContainer}>
           <div className={styles.profileImage}>
-            <img src="src/assets/profile.jpg" alt="Nethum Nenula" />
+            <img src="public\profile.jpg" alt="Nethum Nenula" />
           </div>
         </div>
 
