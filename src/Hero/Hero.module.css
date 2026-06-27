@@ -254,8 +254,7 @@
     }
 
     .imageWrapper {
-        padding: 20px; 
-        min-height: 450px;
+        display: none;
     }
 
     .imageContainer {
