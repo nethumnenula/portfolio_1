@@ -223,7 +223,9 @@
         transform var(--dur) var(--ease),
         visibility var(--dur) var(--ease);
     z-index: 999;
-    padding: 2rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .show {
@@ -240,6 +242,7 @@
     gap: 2.5rem;
     width: 100%;
     max-width: 400px;
+    margin: 0 auto;
 }
 
 .mobileNav {
@@ -262,6 +265,8 @@
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.4s ease, transform 0.4s ease;
+    padding: 0;
+    margin: 0;
 }
 
 .show .mobileNav li {
@@ -286,6 +291,7 @@
     padding: 0.3rem 0;
     transition: color var(--dur) var(--ease);
     position: relative;
+    width: auto;
 }
 
 .mobileNav a::after {
@@ -329,6 +335,7 @@
     transition: all var(--dur) var(--ease);
     border: none;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .contactBtn:hover {
@@ -435,10 +442,7 @@
         transform: translateY(-6px) rotate(-45deg);
     }
 
-    .mobileMenu {
-        padding: 1.5rem;
-    }
-
+    
     .mobileMenuContent {
         gap: 1.8rem;
         max-width: 300px;
