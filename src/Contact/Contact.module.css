@@ -342,3 +342,251 @@
     font-size: 1rem;
 }
 
+/* Responsive Design */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .contact {
+        padding: 5rem 2rem;
+    }
+
+    .sectionTitle {
+        font-size: 2.4rem;
+    }
+
+    .contactWrapper {
+        gap: 3rem;
+    }
+}
+
+/* Mobile Landscape & Small Tablets */
+@media (max-width: 768px) {
+    .contact {
+        padding: 4rem 1.5rem;
+        min-height: auto;
+    }
+
+    .sectionTitle {
+        font-size: 2rem;
+    }
+
+    .sectionTitle::after {
+        width: 50px;
+    }
+
+    .sectionTitle:hover::after {
+        width: 80px;
+    }
+
+    .sectionSubtitle {
+        font-size: 1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .contactWrapper {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .contactInfo h3 {
+        font-size: 1.5rem;
+    }
+
+    .contactForm {
+        padding: 2rem;
+    }
+
+    .contactForm .formTitle {
+        font-size: 1.3rem;
+    }
+
+    .contactItem {
+        padding: 0.7rem 1rem;
+    }
+
+    .iconWrapper {
+        min-width: 40px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .contactIcon {
+        font-size: 1rem;
+    }
+
+    .contactItem .infoValue {
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile Portrait */
+@media (max-width: 480px) {
+    .contact {
+        padding: 3rem 1rem;
+    }
+
+    .sectionTitle {
+        font-size: 1.8rem;
+    }
+
+    .sectionTitle::after {
+        width: 40px;
+        height: 3px;
+    }
+
+    .sectionSubtitle {
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+    }
+
+    .contactForm {
+        padding: 1.5rem;
+    }
+
+    .contactForm .formTitle {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .contactInfo h3 {
+        font-size: 1.3rem;
+    }
+
+    .infoDescription {
+        font-size: 0.9rem;
+    }
+
+    .contactItem {
+        padding: 0.6rem 0.8rem;
+        gap: 0.8rem;
+    }
+
+    .iconWrapper {
+        min-width: 35px;
+        width: 35px;
+        height: 35px;
+        border-radius: 8px;
+    }
+
+    .contactIcon {
+        font-size: 0.9rem;
+    }
+
+    .contactItem .infoValue {
+        font-size: 0.85rem;
+    }
+
+    .contactItem .infoLabel {
+        font-size: 0.6rem;
+    }
+
+    .inputWrapper input,
+    .inputWrapper textarea {
+        padding: 0.7rem 0.8rem 0.7rem 2.8rem;
+        font-size: 0.9rem;
+    }
+
+    .inputWrapper textarea {
+        padding: 0.8rem 0.8rem 0.8rem 2.8rem;
+        min-height: 100px;
+    }
+
+    .inputIcon {
+        left: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .submitBtn {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .socialLink {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .socialLinks {
+        gap: 0.8rem;
+    }
+
+    .contactDetails {
+        gap: 0.8rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 380px) {
+    .contact {
+        padding: 2.5rem 0.8rem;
+    }
+
+    .sectionTitle {
+        font-size: 1.5rem;
+    }
+
+    .sectionSubtitle {
+        font-size: 0.85rem;
+    }
+
+    .contactForm {
+        padding: 1.2rem;
+    }
+
+    .contactInfo h3 {
+        font-size: 1.1rem;
+    }
+
+    .infoDescription {
+        font-size: 0.85rem;
+    }
+
+    .contactItem {
+        padding: 0.5rem 0.7rem;
+        gap: 0.6rem;
+    }
+
+    .iconWrapper {
+        min-width: 30px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .contactIcon {
+        font-size: 0.8rem;
+    }
+
+    .contactItem .infoValue {
+        font-size: 0.8rem;
+    }
+
+    .inputWrapper input,
+    .inputWrapper textarea {
+        padding: 0.6rem 0.6rem 0.6rem 2.4rem;
+        font-size: 0.85rem;
+    }
+
+    .inputWrapper textarea {
+        padding: 0.6rem 0.6rem 0.6rem 2.4rem;
+        min-height: 80px;
+    }
+
+    .inputIcon {
+        left: 0.6rem;
+        font-size: 0.8rem;
+    }
+
+    .submitBtn {
+        font-size: 0.85rem;
+        padding: 0.7rem;
+    }
+
+    .socialLink {
+        width: 35px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+}
+
