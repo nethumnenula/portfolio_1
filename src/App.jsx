@@ -5,6 +5,7 @@ import About from "./About/About.jsx";
 import Stack from "./Stack/Stack.jsx";
 import Projects from "./Projects/Projects.jsx";
 import Education from "./Education/Education.jsx";
+import Contact from "./Contact/Contact.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Stack />
       <Projects />
       <Education />
+      <Contact />
     </div>
   );
 }
