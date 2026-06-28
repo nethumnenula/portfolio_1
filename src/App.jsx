@@ -36,7 +36,7 @@ function App() {
   return (
     <>
       {loading && <Loading onLoadingComplete={handleLoadingComplete} />}
-      
+      {/*{!loading && <CustomCursor />}*/}
       
       <div 
         className="App" 

@@ -57,7 +57,7 @@ function Footer() {
                     <div className={styles.footerSocial}>
                         <h4>Connect</h4>
                         <div className={styles.socialLinks}>
-                            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <a href="https://github.com/nethumnenula" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                                 <FaGithub />
                             </a>
                             <a href="https://www.linkedin.com/in/nethum-nenula-72a051315/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">

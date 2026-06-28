@@ -27,8 +27,8 @@ function Projects() {
       description:
         "A comprehensive logistics management system designed to streamline supply chain operations, track shipments, manage inventory, and optimize delivery routes for efficient logistics operations.",
       techStack: [{ name: "Java", icon: FaJava, color: "#007396" }],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/nethumnenula/Menu_Driven_Logistic_Management_System",
+      demo: "https://github.com/nethumnenula/Menu_Driven_Logistic_Management_System",
       image: project1, 
       details: {
         date: "Aug 2025",
@@ -53,8 +53,8 @@ function Projects() {
         { name: "MySQL", icon: SiMysql, color: "#4479A1" },
         { name: "JavaFX", icon: FaDesktop, color: "#FF6B00" },
       ],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/nethumnenula/Sales_Management_System",
+      demo: "https://github.com/nethumnenula/Sales_Management_System",
       image: project2, 
       details: {
         date: "Mar 2026",
@@ -79,8 +79,8 @@ function Projects() {
         { name: "CSS", icon: FaCss3, color: "#1572B6" },
         { name: "JavaScript", icon: FaJsSquare, color: "#F7DF1E" },
       ],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/nethumnenula/portfolio_1",
+      demo: "https://nethumnenula.github.io/portfolio_1/",
       image: project3, 
       details: {
         date: "Jun 2026",

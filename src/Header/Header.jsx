@@ -111,7 +111,7 @@ function Header() {
             <ul>
               <li>
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/nethumnenula"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -131,7 +131,7 @@ function Header() {
               </li>
               <li>
                 <a
-                  href="https://instagram.com/yourusername"
+                  href="https://www.instagram.com/zo_m.b_ie/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

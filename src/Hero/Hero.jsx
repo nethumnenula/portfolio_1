@@ -54,6 +54,7 @@ function Hero() {
         <h1>
           Nethum <span className={styles.highlight}>Nenula</span>
         </h1>
+        <h3 className={styles.tagName}>a.k.a. &nbsp;<span className={styles.username}> ZombiE</span></h3>
 
         <div className={styles.titles}>
           <span className={styles.title}>I am a</span>
@@ -69,15 +70,13 @@ function Hero() {
           <button className={styles.primaryBtn}>
             <HiDownload /> View CV
           </button>
-          <button className={styles.secondaryBtn}>
-            <MdCall /> Call Me
-          </button>
+          
           <button className={styles.outlineBtn}>
             <a 
               href="#projects" 
               onClick={(e) => handleSmoothScroll(e, "projects")}
             >
-              See My Work
+              See My Projects
             </a>
             <HiArrowRight />
           </button>
