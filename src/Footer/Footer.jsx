@@ -60,10 +60,10 @@ function Footer() {
                             <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                                 <FaGithub />
                             </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/nethum-nenula-72a051315/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                                 <FaLinkedin />
                             </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <a href="https://www.instagram.com/zo_m.b_ie/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                                 <FaInstagram />
                             </a>
                             <a href="mailto:nethumnenula2004@gmail.com" aria-label="Email">

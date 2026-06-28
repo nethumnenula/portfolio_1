@@ -10,6 +10,7 @@ import Contact from "./Contact/Contact.jsx";
 import Footer from "./Footer/Footer.jsx";
 import Loading from "./Loading/Loading.jsx";
 
+
 function App() {
   const [loading, setLoading] = useState(true);
   const [contentVisible, setContentVisible] = useState(false);
@@ -35,6 +36,7 @@ function App() {
   return (
     <>
       {loading && <Loading onLoadingComplete={handleLoadingComplete} />}
+      
       
       <div 
         className="App" 

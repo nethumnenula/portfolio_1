@@ -325,6 +325,7 @@
 /* ── Contact Button ──────────────────────────────────────── */
 .contactBtn {
     display: inline-block;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     color: #0d0d0d !important;
     background: #ff6b00;
     text-decoration: none;

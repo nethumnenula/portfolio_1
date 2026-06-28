@@ -16,7 +16,7 @@ function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Handle active section detection
+
   useEffect(() => {
     const sections = ["home", "about", "skills", "projects", "education", "contact"];
 
@@ -121,7 +121,7 @@ function Header() {
               </li>
               <li>
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://www.linkedin.com/in/nethum-nenula-72a051315/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

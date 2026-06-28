@@ -88,10 +88,10 @@ function Contact() {
                             <a href="#" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
                                 <FaGithub />
                             </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+                            <a href="https://www.linkedin.com/in/nethum-nenula-72a051315/" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
                                 <FaLinkedin />
                             </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+                            <a href="https://www.instagram.com/zo_m.b_ie/" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
                                 <FaInstagram />
                             </a>
                         </div>
