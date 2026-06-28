@@ -3,6 +3,7 @@ import Header from './Header/Header.jsx'
 import Hero from './Hero/Hero.jsx'
 import About from './About/About.jsx';
 import Stack from './Stack/Stack.jsx';
+import Projects from './Projects/Projects.jsx';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero/>
       <About/>
       <Stack/>
+      <Projects />
     </div>  
   );
 }
