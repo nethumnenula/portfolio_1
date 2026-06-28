@@ -352,3 +352,202 @@
     font-size: 0.8rem;
 }
 
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+    .projects {
+        padding: 5rem 2rem;
+    }
+
+    .sectionTitle {
+        font-size: 2.4rem;
+    }
+
+    .projectsGrid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects {
+        padding: 4rem 1.5rem;
+        min-height: auto;
+    }
+
+    .sectionTitle {
+        font-size: 2rem;
+    }
+
+    .sectionTitle::after {
+        width: 50px;
+    }
+
+    .sectionTitle:hover::after {
+        width: 80px;
+    }
+
+    .sectionSubtitle {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .projectsGrid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .projectImage {
+        height: 200px;
+    }
+
+    .projectContent h3 {
+        font-size: 1.2rem;
+    }
+
+    .projectContent p {
+        font-size: 0.9rem;
+    }
+
+    .projectMeta {
+        gap: 0.8rem;
+    }
+
+    .metaItem {
+        font-size: 0.7rem;
+    }
+
+    .featuresList {
+        padding: 0.6rem 0.8rem;
+    }
+
+    .featureTag {
+        font-size: 0.75rem;
+    }
+
+    .projectButtons {
+        flex-direction: column;
+    }
+
+    .githubBtn,
+    .demoBtn {
+        padding: 0.7rem 1rem;
+        font-size: 0.85rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .projects {
+        padding: 3rem 1rem;
+    }
+
+    .sectionTitle {
+        font-size: 1.8rem;
+    }
+
+    .sectionTitle::after {
+        width: 40px;
+        height: 3px;
+    }
+
+    .sectionSubtitle {
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .projectImage {
+        height: 180px;
+    }
+
+    .projectContent {
+        padding: 1.2rem;
+    }
+
+    .projectContent h3 {
+        font-size: 1.1rem;
+    }
+
+    .projectContent p {
+        font-size: 0.85rem;
+    }
+
+    .techTag {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.6rem;
+    }
+
+    .projectNumber {
+        font-size: 2rem;
+    }
+
+    .projectStatus {
+        font-size: 0.6rem;
+        padding: 0.2rem 0.6rem;
+    }
+
+    .projectMeta {
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+
+    .featuresTags {
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+
+    .featureTag {
+        font-size: 0.7rem;
+    }
+
+    .githubBtn,
+    .demoBtn {
+        font-size: 0.8rem;
+        padding: 0.6rem 0.8rem;
+    }
+}
+
+
+@media (max-width: 380px) {
+    .projects {
+        padding: 2.5rem 0.8rem;
+    }
+
+    .sectionTitle {
+        font-size: 1.5rem;
+    }
+
+    .sectionSubtitle {
+        font-size: 0.85rem;
+    }
+
+    .projectImage {
+        height: 150px;
+    }
+
+    .projectContent h3 {
+        font-size: 1rem;
+    }
+
+    .projectContent p {
+        font-size: 0.8rem;
+    }
+
+    .techTag {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.5rem;
+    }
+
+    .metaItem {
+        font-size: 0.65rem;
+    }
+
+    .githubBtn,
+    .demoBtn {
+        font-size: 0.75rem;
+        padding: 0.5rem 0.6rem;
+    }
+}
+
