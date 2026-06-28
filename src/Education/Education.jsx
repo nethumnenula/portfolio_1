@@ -11,7 +11,7 @@ function Education() {
       institution: "University of Sri Jayewardenepura",
       icon: FaGraduationCap,
       description:
-        "Currently pursuing a degree in ICT, focusing on software development, database management, Machine Learning, DevOps Engineering, and modern web technologies.",
+        "Currently pursuing a degree in ICT, focusing on Software Development, Database Management, Machine Learning, DevOps Engineering, and modern web technologies.",
       details: [
         "Specializing in Software Engineering",
         "Database Management Systems",
@@ -26,7 +26,7 @@ function Education() {
       institution: "Mahinda Rajapaksha College",
       icon: MdSchool,
       description:
-        "Successfully completed Advanced Level examinations in the Mathematics stream with excellent results across all three subjects.",
+        "Successfully completed Advanced Level Examinations in the Mathematics stream with excellent results across all three subjects.",
       details: [
         "Subject 1: Combined Mathematics",
         "Subject 2: Physics",
