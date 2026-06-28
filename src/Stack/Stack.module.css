@@ -101,7 +101,7 @@
 .categoryHeader h3 {
     color: #e8e8e8;
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: bold;
     margin: 0;
     transition: color 0.3s ease;
 }
@@ -147,4 +147,130 @@
     color: #b0b0b0;
     font-size: 0.85rem;
     font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+    .skills {
+        padding: 5rem 2rem;
+    }
+
+    .sectionTitle {
+        font-size: 2.4rem;
+    }
+
+    .skillsGrid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+}
+@media (max-width: 768px) {
+    .skills {
+        padding: 4rem 1.5rem;
+        min-height: auto;
+    }
+
+    .sectionTitle {
+        font-size: 2rem;
+    }
+
+    .sectionTitle::after {
+        width: 50px;
+    }
+
+    .sectionTitle:hover::after {
+        width: 80px;
+    }
+
+    .sectionSubtitle {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .skillsGrid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .categoryCard {
+        padding: 1.5rem 1.2rem;
+    }
+
+    .categoryHeader h3 {
+        font-size: 1.1rem;
+    }
+
+    .categoryIcon {
+        font-size: 1.5rem;
+    }
+
+    .skillItem {
+        padding: 0.4rem 0.6rem;
+    }
+
+    .skillName {
+        font-size: 0.8rem;
+    }
+
+    .skillIcon {
+        font-size: 1rem;
+    }
+
+    .skillCount {
+        font-size: 0.6rem;
+        padding: 0.15rem 0.5rem;
+    }
+}
+@media (max-width: 480px) {
+    .skills {
+        padding: 3rem 1rem;
+    }
+
+    .sectionTitle {
+        font-size: 1.8rem;
+    }
+
+    .sectionTitle::after {
+        width: 40px;
+        height: 3px;
+    }
+
+    .sectionSubtitle {
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .skillsGrid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .categoryCard {
+        padding: 1.2rem 1rem;
+    }
+
+    .categoryHeader h3 {
+        font-size: 1rem;
+    }
+
+    .categoryIcon {
+        font-size: 1.3rem;
+    }
+
+    .skillList {
+        gap: 0.6rem;
+    }
+
+    .skillItem {
+        padding: 0.3rem 0.6rem;
+    }
+
+    .skillName {
+        font-size: 0.75rem;
+    }
+
+    .skillIcon {
+        font-size: 0.9rem;
+    }
 }
