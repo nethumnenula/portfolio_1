@@ -15,6 +15,7 @@ function Hero() {
     const typed = new Typed(typedRef.current, {
       strings: [
         "Web Developer",
+        "Software Developer",
         "Creative Thinker",
         "Full Stack Developer",
         "UI/UX Designer",
