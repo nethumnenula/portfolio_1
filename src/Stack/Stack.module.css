@@ -10,6 +10,7 @@
     position: relative;
     overflow: hidden;
 }
+
 .skills::before {
     content: '';
     position: absolute;
@@ -21,6 +22,7 @@
     border-radius: 50%;
     pointer-events: none;
 }
+
 .skills::after {
     content: '';
     position: absolute;
@@ -32,6 +34,7 @@
     border-radius: 50%;
     pointer-events: none;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -39,6 +42,7 @@
     position: relative;
     z-index: 1;
 }
+
 .sectionTitle {
     color: #e8e8e8;
     font-size: 2.8rem;
@@ -47,6 +51,7 @@
     margin-bottom: 0.5rem;
     letter-spacing: -0.5px;
 }
+
 .sectionTitle::after {
     content: '';
     display: block;
@@ -57,9 +62,11 @@
     border-radius: 2px;
     transition: width 0.4s ease;
 }
+
 .sectionTitle:hover::after {
     width: 120px;
 }
+
 .sectionSubtitle {
     color: #8a8a8a;
     text-align: center;
@@ -67,11 +74,13 @@
     margin-top: 0.5rem;
     margin-bottom: 3rem;
 }
+
 .skillsGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
 }
+
 .categoryCard {
     background: rgba(26, 26, 26, 0.6);
     border-radius: 16px;
@@ -79,13 +88,34 @@
     border: 1px solid #2a2a2a;
     transition: all 0.4s ease;
     backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
 }
+
+.categoryCard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 106, 0, 0.011);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+
+.categoryCard:hover::before {
+    opacity: 1;
+}
+
 .categoryCard:hover {
     transform: translateY(-8px);
-    border-color: rgba(255, 107, 0, 0.3);
-    box-shadow: 0 10px 40px rgba(255, 107, 0, 0.05);
-    background: rgba(26, 26, 26, 0.8);
+    border-color: rgba(255, 107, 0, 0.4);
+    box-shadow: 0 10px 40px rgba(255, 107, 0, 0.1);
+    background: rgba(26, 26, 26, 0.85);
 }
+
 .categoryHeader {
     display: flex;
     align-items: center;
@@ -93,26 +123,41 @@
     margin-bottom: 1.5rem;
     padding-bottom: 1rem;
     border-bottom: 2px solid #2a2a2a;
+    transition: border-color 0.4s ease;
 }
+
+.categoryCard:hover .categoryHeader {
+    border-color: rgba(255, 107, 0, 0.3);
+}
+
 .categoryIcon {
     font-size: 1.8rem;
     line-height: 1;
+    transition: transform 0.4s ease;
 }
+
+
+
 .categoryHeader h3 {
     color: #e8e8e8;
     font-size: 1.3rem;
     font-weight: bold;
     margin: 0;
-    transition: color 0.3s ease;
+    transition: color 0.4s ease;
 }
-.categoryHeader h3:hover{
-    color: #ff8800;
+
+
+.categoryCard:hover .categoryHeader h3 {
+    color: #ff6b00;
 }
+
+
 .skillList {
     display: flex;
     flex-wrap: wrap;
     gap: 0.8rem;
 }
+
 .skillItem {
     display: flex;
     align-items: center;
@@ -124,11 +169,12 @@
     transition: all 0.3s ease;
     cursor: default;
 }
+
 .skillItem:hover {
-    background: rgba(255, 107, 0, 0.08);
-    border-color: rgba(255, 107, 0, 0.2);
-    transform: translateY(-2px);
+    border-color: rgba(255, 107, 0, 0.3);
+    transform: translateY(-3px) scale(1.02);
 }
+
 .skillIconWrapper {
     display: flex;
     align-items: center;
@@ -136,18 +182,49 @@
     width: 24px;
     height: 24px;
 }
+
 .skillIcon {
     font-size: 1.1rem;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
 }
+
 .skillItem:hover .skillIcon {
-    transform: scale(1.2) rotate(-5deg);
+    transform: scale(1.2);
 }
+
 .skillName {
     color: #b0b0b0;
     font-size: 0.85rem;
     font-weight: 400;
+    transition: color 0.3s ease;
 }
+
+
+.skillItem:hover .skillName {
+    color: #ff6b00;
+}
+
+
+
+/*
+.categoryCard:hover .skillName {
+    color: #ff6b00;
+}
+
+
+
+.categoryCard:hover .skillItem {
+    border-color: rgba(255, 107, 0, 0.1);
+}
+
+
+
+.categoryCard:hover .skillItem {
+    background: rgba(255, 107, 0, 0.05);
+}
+*/
+
+/* Responsive Design */
 
 @media (max-width: 1024px) {
     .skills {
@@ -163,6 +240,7 @@
         gap: 1.5rem;
     }
 }
+
 @media (max-width: 768px) {
     .skills {
         padding: 4rem 1.5rem;
@@ -214,12 +292,8 @@
     .skillIcon {
         font-size: 1rem;
     }
-
-    .skillCount {
-        font-size: 0.6rem;
-        padding: 0.15rem 0.5rem;
-    }
 }
+
 @media (max-width: 480px) {
     .skills {
         padding: 3rem 1rem;
