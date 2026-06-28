@@ -10,14 +10,33 @@ import Footer from "./Footer/Footer.jsx";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
-      <Hero />
-      <About />
-      <Stack />
-      <Projects />
-      <Education />
-      <Contact />
+
+      <section id="home">
+        <Hero />
+      </section>
+
+      <section id="about">
+        <About />
+      </section>
+
+      <section id="skills">
+        <Stack />
+      </section>
+
+      <section id="projects">
+        <Projects />
+      </section>
+
+      <section id="education">
+        <Education />
+      </section>
+
+      <section id="contact">
+        <Contact />
+      </section>
+
       <Footer />
     </div>
   );
