@@ -146,6 +146,14 @@
     border: 1px solid transparent;
 }
 
+.outlineBtn a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+.outlineBtn a:hover{
+    color: #ff6b00;
+}
 .primaryBtn {
     background: #ff6b00;
     color: #0d0d0d;

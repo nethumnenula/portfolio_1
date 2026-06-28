@@ -180,8 +180,7 @@ function Projects() {
                     <FaGithub /> View Code
                   </a>
                   <a
-                    href={project.demo}
-                    target="_blank"
+                    href="#"                 
                     rel="noopener noreferrer"
                     className={styles.demoBtn}
                   >

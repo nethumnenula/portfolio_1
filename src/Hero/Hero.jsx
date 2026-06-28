@@ -32,7 +32,20 @@ function Hero() {
     return () => {
       typed.destroy();
     };
-  });
+  }, []);
+
+  // Smooth scroll function
+  const handleSmoothScroll = (e, targetId) => {
+    e.preventDefault();
+    const target = document.getElementById(targetId);
+    if (target) {
+      target.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   return (
     <section className={styles.hero} id="home">
       <div className={styles.content}>
@@ -60,7 +73,13 @@ function Hero() {
             <MdCall /> Call Me
           </button>
           <button className={styles.outlineBtn}>
-            See My Work <HiArrowRight />
+            <a 
+              href="#projects" 
+              onClick={(e) => handleSmoothScroll(e, "projects")}
+            >
+              See My Work
+            </a>
+            <HiArrowRight />
           </button>
         </div>
       </div>
@@ -73,31 +92,31 @@ function Hero() {
         </div>
 
         <div className={styles.badgeContainer}>
-            <Badge
-          name="Full Stack Developer"
-          techItem1="React"
-          techItem2="Node.js"
-          techItem3="Express.Js"
-          icon={MdCode}
-          position="bottom-left"
-        />
+          <Badge
+            name="Full Stack Developer"
+            techItem1="React"
+            techItem2="Node.js"
+            techItem3="Express.Js"
+            icon={MdCode}
+            position="bottom-left"
+          />
 
-        <Badge
-          name="Object Oriented Programming"
-          techItem1="Java"
-          techItem2="Python"
-          techItem3="C++"
-          icon={DiJava}
-          position="top-right"
-        />
+          <Badge
+            name="Object Oriented Programming"
+            techItem1="Java"
+            techItem2="Python"
+            techItem3="C++"
+            icon={DiJava}
+            position="top-right"
+          />
 
-        <Badge
-          name="UI/UX Designer"
-          techItem1="Figma"
-          techItem2="Adobe XD"
-          icon={FaPaintBrush}
-          position="custom1"
-        />
+          <Badge
+            name="UI/UX Designer"
+            techItem1="Figma"
+            techItem2="Adobe XD"
+            icon={FaPaintBrush}
+            position="custom1"
+          />
         </div>
         
       </div>
