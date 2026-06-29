@@ -32,7 +32,7 @@ function Footer() {
                 <div className={styles.footerTop}>
                     {/* Brand */}
                     <div className={styles.brand}>
-                        <h2>/Nethum .</h2>
+                        <h2>&lt;/Nethum&gt;</h2>
                         <p>Building digital experiences with code & creativity</p>
                     </div>
 

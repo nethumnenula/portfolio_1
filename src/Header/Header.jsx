@@ -84,7 +84,7 @@ function Header() {
         {/* Logo */}
         <div className={styles.leftSection}>
           <a href="#home" onClick={(e) => handleSmoothScroll(e, "home")}>
-            <h1>Nethum.</h1>
+            <h1>&lt;Nethum&gt;</h1>
           </a>
         </div>
 
