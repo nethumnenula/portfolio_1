@@ -51,7 +51,7 @@ function Loading({ onLoadingComplete }) {
               }}
             >
               <span className={styles.bracket}>&lt;</span>
-              <span className={styles.name}>Nethum.</span>
+              <span className={styles.name}>Nethum</span>
               <span className={styles.bracket}>/&gt;</span>
             </motion.div>
 
